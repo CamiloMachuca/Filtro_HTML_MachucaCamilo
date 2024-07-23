@@ -85,6 +85,45 @@ html{
     border-radius: 2vw;
     background-color: rgb(68, 136, 68);
 }
+.cuadro3{
+    top: 23vw;
+    position: absolute;
+    left: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    width: 15vw;
+    height: 18vw;
+    border-radius: 2vw;
+    background-color: rgb(68, 136, 68);
+}
+.cuadro4{
+    top: 23vw;
+    position: absolute;
+    left: 34vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    width: 15vw;
+    height: 18vw;
+    border-radius: 2vw;
+    background-color: rgb(68, 136, 68);
+}
+.cuadro5{
+    top: 23vw;
+    position: absolute;
+    left: 51vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    width: 15vw;
+    height: 18vw;
+    border-radius: 2vw;
+    background-color: rgb(68, 136, 68);
+}
 .subcuadro{
     position: absolute;
     top: 14vw;
@@ -115,9 +154,9 @@ a{
     
 }
 .abriggo{
+    top: -1vw;
     position: relative;
     left: 1vw;
-    top: -1vw;
     color:  darkgreen;
     font-size: 1vw;
 }
@@ -161,4 +200,3 @@ a:hover{
 @media screen and (max-width: 430px){
 
 }
-    

@@ -116,8 +116,8 @@ a{
 }
 .abriggo{
     position: relative;
-    left: 1vw;
     top: -1vw;
+    left: 1vw;
     color:  darkgreen;
     font-size: 1vw;
 }

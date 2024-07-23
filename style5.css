@@ -62,35 +62,49 @@ html{
     background-color: aliceblue;
 }
 .cuadro1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     position: relative;
     top: -1vw;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 1vw;
-    width: 15vw;
-    height: 18vw;
+    width: 70vw;
+    height: 10vw;
     border-radius: 2vw;
-    background-color: rgb(68, 136, 68);
+    background-color: rgb(134, 22, 22);
 }
 .cuadro2{
-    top: 23vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    top: 14.5vw;
     position: absolute;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 1vw;
-    width: 15vw;
-    height: 18vw;
+    width: 70vw;
+    height: 10vw;
     border-radius: 2vw;
-    background-color: rgb(68, 136, 68);
+    background-color: rgb(134, 22, 22);
+}
+.cuadro3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    top: 25.8vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 1vw;
+    width: 70vw;
+    height: 10vw;
+    border-radius: 2vw;
+    background-color: rgb(134, 22, 22);
 }
 .subcuadro{
     position: absolute;
     top: 14vw;
     width: 15vw;
     height: 4vw;
-    background-color: rgb(202, 204, 206);
     border-radius: 1vw;
 }
 a{
@@ -115,17 +129,19 @@ a{
     
 }
 .abriggo{
+    z-index: 2;
     position: relative;
-    left: 1vw;
-    top: -1vw;
+    top: -10vw;
+    left: 12vw;
     color:  darkgreen;
     font-size: 1vw;
 }
 #Abrigo1{
     position: relative;
-    top: -1vw;
-    width: 10vw;
-    height: 10vw;
+    top: 0vw;
+    left: 2vw;
+    width: 8vw;
+    height: 8vw;
 }
 a:hover{
     background-color: aliceblue;
@@ -158,7 +174,38 @@ a:hover{
     height: 1.5vw;
     border-radius: 5vw;
 }
+.Nombre{
+    position: relative;
+    font-size: 2vw;
+    top: -17vw;
+    left: 12vw;
+    color:  darkgreen;
+    z-index: 1;
+}
+.Cantidad{
+    position: relative;
+    color: darkgreen;
+    top: -21vw;
+    font-size: 1.5vw;
+    left: 30vw;
+    z-index: 2;
+}
+.Precio{
+    position: relative;
+    color: darkgreen;
+    top: -24vw;
+    font-size: 1.5vw;
+    left: 45vw;
+    z-index: 2;
+}
+.subtotal{
+    position: relative;
+    color: darkgreen;
+    top: -27vw;
+    font-size: 1.5vw;
+    left: 55vw;
+    z-index: 2;
+}
 @media screen and (max-width: 430px){
 
 }
-    
