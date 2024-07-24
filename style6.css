@@ -1,3 +1,4 @@
+
 .contenedor{
     width: 100vw;
     height: 48vw;
@@ -43,6 +44,7 @@
     align-items: center;
     width: 25vw;
     height: 2vw;
+    background-color: #ffffff;
 }
 .contenidoultimo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -63,39 +65,50 @@
     background-color: aliceblue;
 }
 .cuadro1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     position: relative;
     top: -1vw;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 1vw;
-    width: 15vw;
-    height: 18vw;
+    width: 70vw;
+    height: 10vw;
     border-radius: 2vw;
     border: 0.2vw solid rgb(68, 136, 68);
-    
 }
 .cuadro2{
-    top: 19vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    top: 14.5vw;
     position: absolute;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 1vw;
-    width: 15vw;
-    height: 18vw;
+    width: 70vw;
+    height: 10vw;
+    border-radius: 2vw;
+    border: 0.2vw solid rgb(68, 136, 68);
+}
+.cuadro3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    top: 25.8vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 1vw;
+    width: 70vw;
+    height: 10vw;
     border-radius: 2vw;
     border: 0.2vw solid rgb(68, 136, 68);
 }
 .subcuadro{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
-    top: 14.1vw;
-    width: 15.1vw;
+    top: 14vw;
+    width: 15vw;
     height: 4vw;
-    background-color: rgb(202, 204, 206);
     border-radius: 1vw;
-    border: 0.2vw solid rgb(68, 136, 68);
 }
 a{
     text-decoration: none;
@@ -105,12 +118,9 @@ a{
     margin: 1vw;
     font-size: 2vw;
     color: darkgreen;
-    
 }
 .cuadros{
     display: flex;
-    position: relative;
-    left: 3vw;
 }
 .textoProductos{
     font-size: 1.5vw;
@@ -122,21 +132,22 @@ a{
     
 }
 .abriggo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 2;
     position: relative;
-    left: 0.5vw;
-    top: -1vw;
+    top: -10vw;
+    left: 12vw;
     color:  darkgreen;
     font-size: 1vw;
 }
 #Abrigo1{
     position: relative;
-    top: -1vw;
-    width: 10vw;
-    height: 10vw;
+    top: 0vw;
+    left: 2vw;
+    width: 8vw;
+    height: 8vw;
 }
 a:hover{
-    background-color: #ffffff;
+    background-color: aliceblue;
 }
 .contenidoSubcuadro{
     display: flex;
@@ -166,6 +177,38 @@ a:hover{
     height: 1.5vw;
     border-radius: 5vw;
 }
+.Nombre{
+    position: relative;
+    font-size: 2vw;
+    top: -17vw;
+    left: 12vw;
+    color:  darkgreen;
+    z-index: 1;
+}
+.Cantidad{
+    position: relative;
+    color: darkgreen;
+    top: -21vw;
+    font-size: 1.5vw;
+    left: 30vw;
+    z-index: 2;
+}
+.Precio{
+    position: relative;
+    color: darkgreen;
+    top: -28vw;
+    font-size: 1.5vw;
+    left: 45vw;
+    z-index: 2;
+}
+.subtotal{
+    position: relative;
+    color: darkgreen;
+    top: -35vw;
+    font-size: 1.5vw;
+    left: 55vw;
+    z-index: 2;
+}
 #icon1{
     width: 2vw;
     height: 2vw;
@@ -182,7 +225,7 @@ a:hover{
     align-items: center;
     width: 25vw;
     height: 2vw;
-    background-color: #ffffff;
+    
 }
 .productoss3{
     display: flex;
@@ -191,8 +234,83 @@ a:hover{
     height: 2vw;
   
 }
+.cantidadcuadro{
+    position: relative;
+    top: -21vw;
+    font-size: 1.5vw;
+    left: 30vw;
+    z-index: 2;
+    width: 5vw;
+    border: 1px solid black;
+}
+.precioo{
+    position: relative;
+    color: darkgreen;
+    top: -28vw;
+    font-size: 1.5vw;
+    left: 45vw;
+    z-index: 2;
+}
+.subtotall{
+    position: relative;
+    color: darkgreen;
+    top: -35vw;
+    font-size: 1.5vw;
+    left: 55vw;
+    z-index: 2;
+}
+.eliminar2{
+    position: absolute;
+    top: 0vw;
+}
+.eliminar3{
+    position: absolute;
+    top: 0vw;
+}
+.carroo{
+    font-size: 2vw;
+    position: relative;
+    left: 2vw;
+    color: darkgreen;
+}
+#delete{
+    width: 5vw;
+    height: 5vw;
+    position: relative;
+    color: darkgreen;
+    top: -13vw;
+    font-size: 1.5vw;
+    left: 62vw;
+    z-index: 2;
+}
+input[type="checkbox"]{
+    display: none;
+}
+#inputt:checked + .eliminar1{
+    display: none;
+}
+#inputt2:checked + .eliminar2{
+    display: none;
+}
+#inputt3:checked + .eliminar3{
+    display: none;
+}
+.boton1{
+    position: relative;
+    z-index: 2;
+    top: 23vw;
+    left: 5vw;
+    width: 10vw;
+    height: 1.5vw;
+    background-color: darkgreen;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2vw;
+    font-size: 1.2vw;
+}
 
 @media screen and (max-width: 430px){
 
 }
-    
