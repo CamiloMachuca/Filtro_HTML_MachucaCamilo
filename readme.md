@@ -1,5 +1,5 @@
 # CampusShop
-Se realizó una maquetacón de la página web commerce campus shop.
+Se realizó una maquetación de la página web commerce campus shop.
 
 ## Descripción 
 La página web consta de 5 opciones principales:
