@@ -1,6 +1,15 @@
 # CampusShop
 Se realizó una maquetación de la página web commerce campus shop.
-
+## Tabla de contenidos
+Esta pagina cuenta con las siguientes secciones 
+| Índice | Título |
+|--|--|
+| 1 | index.html |
+| 2 | index2.html |
+| 3 | index3.html |
+| 4 | index4.html |
+| 5 | index5.html |
+| 6 | index6.html |
 ## Descripción 
 La página web consta de 5 opciones principales:
 
@@ -32,6 +41,11 @@ La página web consta de 5 opciones principales:
 ## Instrucciones de usu
 
 1. clonar el repositorio y abrirlo en un servicio compatible. 
+- Para clonar el repositorio escribe el siguiente comando
+```bash
+git clone https://github.com/CamiloMachuca/Filtro_HTML_MachucaCamilo.git
+``` 
+ 
 
 2. Abrir en la nube el archivo index.html en un navegador web.
 
